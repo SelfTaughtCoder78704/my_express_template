@@ -1,0 +1,3 @@
+dbPassword = '';
+
+module.exports = dbPassword
