@@ -1,0 +1,12 @@
+<% include partials/header %>
+<div class="jumbotron text-center">
+    <div class="custom">
+        <h1 class="mt-4">Dashboard</h1>
+        <p class="lead mb-3">WELCOME <%= user.firstName.toUpperCase() %></p>
+    </div>
+      
+</div>
+
+
+<a href="/users/logout" class="btn btn-secondary">Logout</a>
+<% include partials/footer %>
